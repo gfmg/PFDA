@@ -43,4 +43,3 @@ fig, ax = plt.subplots(figsize=(4,4))
 ax.pie(df['Results'],labels=df['Players'], autopct='%1.2f%%', startangle=90,shadow=True,textprops={'fontsize': 14})
 plt.title("Risk Battle Winning Percentages", fontweight="bold",fontdict={'fontsize': 20})
 plt.show()
-# %%
